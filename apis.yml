@@ -1,9 +1,24 @@
 aid: tiplink
 name: TipLink
-description: 'TipLink is a company surfaced as a portfolio company of multicoin-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'TipLink is a Solana wallet-link platform that lets anyone create a shareable
+  link or QR code holding crypto or an NFT, so a recipient can claim digital assets without
+  first setting up a wallet. It ships as first-party TypeScript/JavaScript SDKs (notably
+  @tiplink/api) and Solana Wallet Adapter UI components rather than a hosted REST API,
+  and is used for airdrops, tipping, payments, and onboarding new users to Solana.
+  Backed by Multicoin Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/tiplink/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/107439378?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto Web3
+- Solana
+- Wallet
+- SDK
+- Payments
+- Web3
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +45,30 @@ maintainers:
 common:
 - type: Website
   url: https://tiplink.io
+- type: DeveloperPortal
+  url: https://docs.tiplink.io
+- type: Documentation
+  url: https://docs.tiplink.io
+- type: GettingStarted
+  url: https://docs.tiplink.io/docs/getting-started/quickstart
+- type: GitHubOrganization
+  url: https://github.com/TipLink
+- type: Support
+  url: https://discord.gg/4bXYT7dxR3
+- type: PrivacyPolicy
+  url: https://tiplink.io/privacy
+- type: Packages
+  url: packages/tiplink-packages.yml
+- type: SDKs
+  url: packages/tiplink-packages.yml
+- type: Components
+  url: components/tiplink-components.yml
+- type: LLMsTxt
+  url: llms/tiplink-llms.txt
+- type: DomainSecurity
+  url: security/tiplink-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

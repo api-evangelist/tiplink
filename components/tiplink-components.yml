@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=tiplink
+notes: >-
+  Client-side / embeddable UI components TipLink ships for integrating its
+  Solana wallet-link experience into dapps. Distinct from server-side SDKs in
+  packages/. These are drop-in React/Solana Wallet Adapter surfaces, not a
+  hosted widget CDN.
+families:
+- name: Wallet Adapter UI
+  description: >-
+    React UI components that render the TipLink option inside the Solana Wallet
+    Adapter modal, letting dapps offer TipLink as a login/wallet choice.
+  components:
+  - name: TipLink Wallet Adapter
+    package: "@tiplink/wallet-adapter"
+    url: https://www.npmjs.com/package/@tiplink/wallet-adapter
+    kind: solana-wallet-adapter
+  - name: TipLink Wallet Adapter React UI
+    package: "@tiplink/wallet-adapter-react-ui"
+    url: https://www.npmjs.com/package/@tiplink/wallet-adapter-react-ui
+    kind: react-ui
+    provides: [WalletModal, wallet-selection UI]
+- name: Embedded Wallet
+  description: >-
+    Embeds a Solana wallet directly in an application and exposes a Web3
+    provider (forked/maintained by TipLink from Torus solana-embed).
+  components:
+  - name: solana-embed
+    repository: https://github.com/TipLink/solana-embed
+    kind: embedded-wallet
+    provides: [Web3 provider]
+loaders:
+- "@tiplink/wallet-adapter"
+- "@tiplink/wallet-adapter-react-ui"

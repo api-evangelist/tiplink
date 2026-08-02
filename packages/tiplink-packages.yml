@@ -1,0 +1,55 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=tiplink
+notes: >-
+  First-party packages are those published under the @tiplink npm scope and
+  maintained by @tiplink.io / techne.xyz accounts (alex@tiplink.io,
+  aashiq@tiplink.io, jackson@techne.xyz). TipLink is an SDK/library-first
+  Solana product; there is no hosted REST API surface. The legacy
+  github.com/TipLink/tiplink-api repo is archived ("bare-bones temporary API
+  for very limited testing"); the maintained code lives in
+  github.com/TipLink/tiplink-open-source.
+packages:
+- language: javascript
+  registry: npm
+  name: "@tiplink/api"
+  version: 0.3.1
+  url: https://www.npmjs.com/package/@tiplink/api
+  install: npm install @tiplink/api
+  repository: https://github.com/TipLink/tiplink-open-source
+  homepage: https://docs.tiplink.io
+  description: API for creating and sending TipLinks (crypto, Solana, wallet, airdrop).
+  official: true
+- language: javascript
+  registry: npm
+  name: "@tiplink/wallet-adapter"
+  version: 2.1.21
+  url: https://www.npmjs.com/package/@tiplink/wallet-adapter
+  install: npm install @tiplink/wallet-adapter
+  description: TipLink wallet adapter for Solana dapps (Solana Wallet Adapter integration).
+  official: true
+- language: javascript
+  registry: npm
+  name: "@tiplink/wallet-adapter-react-ui"
+  version: 1.0.0
+  url: https://www.npmjs.com/package/@tiplink/wallet-adapter-react-ui
+  install: npm install @tiplink/wallet-adapter-react-ui
+  description: React UI components for the TipLink wallet adapter (WalletModal and related UI).
+  official: true
+- language: javascript
+  registry: npm
+  name: "@tiplink/react_native_wallet_connect"
+  version: 2.1.5
+  url: https://www.npmjs.com/package/@tiplink/react_native_wallet_connect
+  install: npm install @tiplink/react_native_wallet_connect
+  repository: https://github.com/TipLink/tiplink-wallet-connect-react-native
+  description: TipLink's React Native implementation of WalletConnect.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@tiplink/util"
+  version: 0.0.1
+  url: https://www.npmjs.com/package/@tiplink/util
+  install: npm install @tiplink/util
+  description: Shared TypeScript code across TipLink products.
+  official: true
