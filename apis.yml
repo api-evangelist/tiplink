@@ -7,6 +7,17 @@ description: 'TipLink is a Solana wallet-link platform that lets anyone create a
   and is used for airdrops, tipping, payments, and onboarding new users to Solana.
   Backed by Multicoin Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/tiplink/refs/heads/main/apis.yml
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
